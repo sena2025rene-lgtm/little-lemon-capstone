@@ -63,3 +63,52 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.specials {
+  padding: 60px;
+  background-color: #edefee;
+}
+
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.specials-header h2 {
+  font-size: 36px;
+  color: #333333;
+  margin: 0;
+}
+
+.specials-header button {
+  background-color: #f4ce14;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  width: 30%;
+}
+
+.card h3 {
+  color: #495e57;
+  margin-top: 0;
+}
+
+.price {
+  color: #ee9972;
+  font-weight: bold;
+}
